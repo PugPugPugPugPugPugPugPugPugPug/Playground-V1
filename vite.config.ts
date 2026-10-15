@@ -5,12 +5,7 @@ import path from "path";
 import { defineConfig, type Plugin } from "vite";
 import { copyFileSync, existsSync } from "node:fs";
 
-/**
- * GitHub Pages serves static files with no rewrite rules, so a deep link like
- * /games returns 404. Its documented workaround is to publish a copy of
- * index.html as 404.html: the server serves it for the missing path and the
- * client-side router picks the route up from the URL.
- */
+
 function githubPagesFallback(): Plugin {
   return {
     name: "github-pages-fallback",
@@ -24,22 +19,13 @@ function githubPagesFallback(): Plugin {
   };
 }
 
-// https://vite.dev/config/
-// Where the app itself is served: "/" at a site root, or "/<repo>/" on a
-// GitHub Pages project site.
+
 const APP_BASE = process.env.PAGES_BASE ?? "/";
 
-// Where the static files are fetched from. Usually the same origin, but it may
-// be an absolute CDN URL. jsDelivr is the intended case: it will happily serve
-// the hashed bundles, the Scramjet runtime and the vendored games, but it
-// serves .html as text/plain, so index.html and sw.js still have to come from
-// the app's own origin. Everything Vite emits -- and the %BASE_URL%
-// references in index.html -- follows this value.
+
 const ASSET_BASE = process.env.ASSET_BASE ?? APP_BASE;
 
-// Expose it to the client so the app can tell the service worker where to find
-// the controller. Vite reads process.env when it builds import.meta.env, so
-// setting it here is enough.
+
 process.env.VITE_ASSET_BASE = ASSET_BASE;
 
 export default defineConfig({
@@ -49,22 +35,17 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
-    // Force a single copy of React across all packages (including vlyPlugin).
-    // Without this, @vly-ai/integrations can resolve its own React copy, which
-    // triggers "Invalid hook call" errors at runtime.
+  
     dedupe: ["react", "react/jsx-runtime", "react-dom", "react-dom/client"],
   },
   build: {
-    // Enable source maps for better debugging (disable in production if needed)
+   
     sourcemap: false,
-    // Optimize chunk splitting
+  
     rollupOptions: {
       output: {
-        // Manual chunk splitting for better caching and lazy loading
         manualChunks: {
-          // Vendor chunks for large libraries
           'react-vendor': ['react', 'react-dom', 'react-router'],
-          // Large UI library chunks
           'radix-ui': [
             '@radix-ui/react-accordion',
             '@radix-ui/react-alert-dialog',
