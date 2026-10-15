@@ -1,0 +1,538 @@
+{
+  "exportedAt": "2026-09-30T23:53:11.180Z",
+  "origin": "https://playgroundbeta.freebuff.app/",
+  "files": [
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 1175
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0
+    },
+    {
+      "path": "bun.lock",
+      "bytes": 130663
+    },
+    {
+      "path": "components.json",
+      "bytes": 426
+    },
+    {
+      "path": "convex.json",
+      "bytes": 213
+    },
+    {
+      "path": "index.html",
+      "bytes": 1107
+    },
+    {
+      "path": "package.json",
+      "bytes": 3266
+    },
+    {
+      "path": "public/.nojekyll",
+      "bytes": 0
+    },
+    {
+      "path": "public/controller/controller.api.js",
+      "bytes": 17086
+    },
+    {
+      "path": "public/controller/controller.inject.js",
+      "bytes": 6436
+    },
+    {
+      "path": "public/controller/controller.sw.js",
+      "bytes": 4576
+    },
+    {
+      "path": "public/logo.svg",
+      "bytes": 384
+    },
+    {
+      "path": "public/manifest.webmanifest",
+      "bytes": 360
+    },
+    {
+      "path": "public/scramjet/scramjet.js",
+      "bytes": 227109
+    },
+    {
+      "path": "public/scramjet/scramjet.wasm",
+      "bytes": 586279
+    },
+    {
+      "path": "public/sw.js",
+      "bytes": 1042
+    },
+    {
+      "path": "public/uv-engine/worker.js",
+      "bytes": 2903
+    },
+    {
+      "path": "public/uv/sw.js",
+      "bytes": 2845
+    },
+    {
+      "path": "scripts/audit-export.mjs",
+      "bytes": 2286
+    },
+    {
+      "path": "scripts/build-jsdelivr.mjs",
+      "bytes": 3373
+    },
+    {
+      "path": "scripts/build-svg.mjs",
+      "bytes": 7298
+    },
+    {
+      "path": "scripts/e2e-full.mjs",
+      "bytes": 4746
+    },
+    {
+      "path": "scripts/e2e-music.mjs",
+      "bytes": 2223
+    },
+    {
+      "path": "scripts/e2e-unblocker.mjs",
+      "bytes": 3364
+    },
+    {
+      "path": "scripts/inspect-runtime.mjs",
+      "bytes": 1864
+    },
+    {
+      "path": "scripts/probe-wisp-real.mjs",
+      "bytes": 1157
+    },
+    {
+      "path": "scripts/probe-wisp.mjs",
+      "bytes": 3142
+    },
+    {
+      "path": "src/assets/logo.svg",
+      "bytes": 384
+    },
+    {
+      "path": "src/components/AuroraStage.tsx",
+      "bytes": 3685
+    },
+    {
+      "path": "src/components/BrowseView.tsx",
+      "bytes": 32355
+    },
+    {
+      "path": "src/components/ChangelogDialog.tsx",
+      "bytes": 1787
+    },
+    {
+      "path": "src/components/ClassroomSplash.tsx",
+      "bytes": 5542
+    },
+    {
+      "path": "src/components/PasswordGate.tsx",
+      "bytes": 5892
+    },
+    {
+      "path": "src/components/ui/accordion.tsx",
+      "bytes": 2039
+    },
+    {
+      "path": "src/components/ui/alert-dialog.tsx",
+      "bytes": 3850
+    },
+    {
+      "path": "src/components/ui/alert.tsx",
+      "bytes": 1614
+    },
+    {
+      "path": "src/components/ui/aspect-ratio.tsx",
+      "bytes": 280
+    },
+    {
+      "path": "src/components/ui/avatar.tsx",
+      "bytes": 1083
+    },
+    {
+      "path": "src/components/ui/badge.tsx",
+      "bytes": 1633
+    },
+    {
+      "path": "src/components/ui/breadcrumb.tsx",
+      "bytes": 2357
+    },
+    {
+      "path": "src/components/ui/button-group.tsx",
+      "bytes": 2209
+    },
+    {
+      "path": "src/components/ui/button.tsx",
+      "bytes": 2218
+    },
+    {
+      "path": "src/components/ui/calendar.tsx",
+      "bytes": 7793
+    },
+    {
+      "path": "src/components/ui/card.tsx",
+      "bytes": 1987
+    },
+    {
+      "path": "src/components/ui/carousel.tsx",
+      "bytes": 5542
+    },
+    {
+      "path": "src/components/ui/chart.tsx",
+      "bytes": 10069
+    },
+    {
+      "path": "src/components/ui/checkbox.tsx",
+      "bytes": 1219
+    },
+    {
+      "path": "src/components/ui/collapsible.tsx",
+      "bytes": 786
+    },
+    {
+      "path": "src/components/ui/command.tsx",
+      "bytes": 4804
+    },
+    {
+      "path": "src/components/ui/context-menu.tsx",
+      "bytes": 8274
+    },
+    {
+      "path": "src/components/ui/dialog.tsx",
+      "bytes": 3981
+    },
+    {
+      "path": "src/components/ui/drawer.tsx",
+      "bytes": 4255
+    },
+    {
+      "path": "src/components/ui/dropdown-menu.tsx",
+      "bytes": 8410
+    },
+    {
+      "path": "src/components/ui/empty.tsx",
+      "bytes": 2396
+    },
+    {
+      "path": "src/components/ui/field.tsx",
+      "bytes": 6145
+    },
+    {
+      "path": "src/components/ui/form.tsx",
+      "bytes": 3764
+    },
+    {
+      "path": "src/components/ui/hover-card.tsx",
+      "bytes": 1532
+    },
+    {
+      "path": "src/components/ui/index.ts",
+      "bytes": 9464
+    },
+    {
+      "path": "src/components/ui/input-group.tsx",
+      "bytes": 5065
+    },
+    {
+      "path": "src/components/ui/input-otp.tsx",
+      "bytes": 2240
+    },
+    {
+      "path": "src/components/ui/input.tsx",
+      "bytes": 962
+    },
+    {
+      "path": "src/components/ui/item.tsx",
+      "bytes": 4494
+    },
+    {
+      "path": "src/components/ui/kbd.tsx",
+      "bytes": 862
+    },
+    {
+      "path": "src/components/ui/label.tsx",
+      "bytes": 611
+    },
+    {
+      "path": "src/components/ui/menubar.tsx",
+      "bytes": 8380
+    },
+    {
+      "path": "src/components/ui/navigation-menu.tsx",
+      "bytes": 6664
+    },
+    {
+      "path": "src/components/ui/pagination.tsx",
+      "bytes": 2717
+    },
+    {
+      "path": "src/components/ui/popover.tsx",
+      "bytes": 1635
+    },
+    {
+      "path": "src/components/ui/progress.tsx",
+      "bytes": 726
+    },
+    {
+      "path": "src/components/ui/radio-group.tsx",
+      "bytes": 1466
+    },
+    {
+      "path": "src/components/ui/resizable.tsx",
+      "bytes": 2014
+    },
+    {
+      "path": "src/components/ui/scroll-area.tsx",
+      "bytes": 1645
+    },
+    {
+      "path": "src/components/ui/select.tsx",
+      "bytes": 6344
+    },
+    {
+      "path": "src/components/ui/separator.tsx",
+      "bytes": 699
+    },
+    {
+      "path": "src/components/ui/sheet.tsx",
+      "bytes": 4076
+    },
+    {
+      "path": "src/components/ui/sidebar.tsx",
+      "bytes": 21638
+    },
+    {
+      "path": "src/components/ui/skeleton.tsx",
+      "bytes": 276
+    },
+    {
+      "path": "src/components/ui/slider.tsx",
+      "bytes": 1996
+    },
+    {
+      "path": "src/components/ui/sonner.tsx",
+      "bytes": 1020
+    },
+    {
+      "path": "src/components/ui/spinner.tsx",
+      "bytes": 331
+    },
+    {
+      "path": "src/components/ui/switch.tsx",
+      "bytes": 1177
+    },
+    {
+      "path": "src/components/ui/table.tsx",
+      "bytes": 2434
+    },
+    {
+      "path": "src/components/ui/tabs.tsx",
+      "bytes": 1969
+    },
+    {
+      "path": "src/components/ui/textarea.tsx",
+      "bytes": 759
+    },
+    {
+      "path": "src/components/ui/toggle-group.tsx",
+      "bytes": 2300
+    },
+    {
+      "path": "src/components/ui/toggle.tsx",
+      "bytes": 1556
+    },
+    {
+      "path": "src/components/ui/tooltip.tsx",
+      "bytes": 1892
+    },
+    {
+      "path": "src/convex/_generated/api.d.ts",
+      "bytes": 1152
+    },
+    {
+      "path": "src/convex/_generated/api.js",
+      "bytes": 480
+    },
+    {
+      "path": "src/convex/_generated/dataModel.d.ts",
+      "bytes": 1736
+    },
+    {
+      "path": "src/convex/_generated/server.d.ts",
+      "bytes": 6008
+    },
+    {
+      "path": "src/convex/_generated/server.js",
+      "bytes": 3872
+    },
+    {
+      "path": "src/convex/auth.config.ts",
+      "bytes": 1387
+    },
+    {
+      "path": "src/convex/auth.ts",
+      "bytes": 430
+    },
+    {
+      "path": "src/convex/auth/emailOtp.ts",
+      "bytes": 1033
+    },
+    {
+      "path": "src/convex/http.ts",
+      "bytes": 152
+    },
+    {
+      "path": "src/convex/schema.ts",
+      "bytes": 1486
+    },
+    {
+      "path": "src/convex/tsconfig.json",
+      "bytes": 756
+    },
+    {
+      "path": "src/convex/users.ts",
+      "bytes": 519
+    },
+    {
+      "path": "src/hooks/use-auth.ts",
+      "bytes": 594
+    },
+    {
+      "path": "src/hooks/use-mobile.ts",
+      "bytes": 565
+    },
+    {
+      "path": "src/hooks/use-theme.ts",
+      "bytes": 806
+    },
+    {
+      "path": "src/index.css",
+      "bytes": 14124
+    },
+    {
+      "path": "src/instrumentation.tsx",
+      "bytes": 8489
+    },
+    {
+      "path": "src/lib/access.ts",
+      "bytes": 4010
+    },
+    {
+      "path": "src/lib/changelog.ts",
+      "bytes": 20300
+    },
+    {
+      "path": "src/lib/cloak.ts",
+      "bytes": 4130
+    },
+    {
+      "path": "src/lib/close-guard.ts",
+      "bytes": 1523
+    },
+    {
+      "path": "src/lib/exportManifest.ts",
+      "bytes": 13642
+    },
+    {
+      "path": "src/lib/hifi.ts",
+      "bytes": 17049
+    },
+    {
+      "path": "src/lib/lumin.ts",
+      "bytes": 4922
+    },
+    {
+      "path": "src/lib/paths.ts",
+      "bytes": 2147
+    },
+    {
+      "path": "src/lib/proxy.ts",
+      "bytes": 20078
+    },
+    {
+      "path": "src/lib/scramjet-controller.ts",
+      "bytes": 2102
+    },
+    {
+      "path": "src/lib/theme.ts",
+      "bytes": 1999
+    },
+    {
+      "path": "src/lib/utils.ts",
+      "bytes": 169
+    },
+    {
+      "path": "src/lib/uv.ts",
+      "bytes": 8691
+    },
+    {
+      "path": "src/lib/vly-integrations.ts",
+      "bytes": 294
+    },
+    {
+      "path": "src/lib/zip.ts",
+      "bytes": 4134
+    },
+    {
+      "path": "src/main.tsx",
+      "bytes": 6947
+    },
+    {
+      "path": "src/pages/FilesScreen.tsx",
+      "bytes": 24533
+    },
+    {
+      "path": "src/pages/GamesPage.tsx",
+      "bytes": 29058
+    },
+    {
+      "path": "src/pages/Landing.tsx",
+      "bytes": 27534
+    },
+    {
+      "path": "src/pages/MusicPage.tsx",
+      "bytes": 30927
+    },
+    {
+      "path": "src/pages/NotFound.tsx",
+      "bytes": 1057
+    },
+    {
+      "path": "src/types/global.d.ts",
+      "bytes": 261
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "bytes": 38
+    },
+    {
+      "path": "tsconfig.app.json",
+      "bytes": 849
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 213
+    },
+    {
+      "path": "tsconfig.node.json",
+      "bytes": 633
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 5271
+    },
+    {
+      "path": "vly-toolbar-readonly.tsx",
+      "bytes": 14264
+    },
+    {
+      "path": "README.md",
+      "bytes": 9267
+    }
+  ]
+}
